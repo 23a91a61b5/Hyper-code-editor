@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>High-Performance Code Editor</title>
+  </head>
+  <body>
+    <div id="app">
+      <div data-test-id="editor-container" class="editor-pane">
+        <textarea id="editor" data-test-id="editor-input" spellcheck="false" placeholder="Type your code here..."></textarea>
+      </div>
+      <div data-test-id="event-dashboard" class="dashboard-pane">
+        <h2>Event Dashboard</h2>
+        <div id="event-log-container" data-test-id="event-log-list" class="log-list"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
